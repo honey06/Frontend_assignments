@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .circle {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  
+  .outer{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(5, 67, 87);
+    top: 25px;
+    left: 25px;
+  }
+  
+  .middle{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(40, 78, 176);
+    top: 50px;
+    left: 50px;
+  }
+  
+  .inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(155, 172, 237);
+    top: 75px;
+    left: 75px;
+  }
+  
